@@ -17,7 +17,7 @@ struct List {
 };
 
 void List::insertNode(int data) {   
-    NodeL *aux = new Node;
+    NodeL *aux = new NodeL;
     aux->data = data;
     aux->next = nullptr; // desaloca o ponteiro da aux, já que ela é apenas inserida
 
@@ -37,7 +37,7 @@ void List::removeNode(int data){
         if (current->data == data){ // se achar oq tamo procurando
             if (previous == nullptr) { //head
                 head = current->next;
-            } else if(current -> next == nullptr){ //tail
+            } else if(current ->next == nullptr){ //tail
                 previous->next = nullptr;
                 tail = previous; 
             } else {
@@ -58,7 +58,25 @@ void List::display(){
     }
     std::cout << "\n";
 }
-
+void List::reverse(){
+    NodeL *current = head;
+    NodeL *previous = nullptr;
+    NodeL temp;
+    while (current != nullptr){ // logica do remv node e não é o current next pq é so quando ele for o null ptr ele para
+        if (previous == nullptr) { //head
+            previous = current; //armazena o endereço do nodo 
+            current = current->next; // vai p/ prox nodo
+            previous->next = nullptr; //transforma em uma tail
+        } else{
+            previous = current; //armazena o endereço do nodo  
+            current = current->next;
+            previous->next = previous; // aponta p/ o nodo anterior 
+        }
+    }
+    temp = head;
+    head = tail;
+    tail = temp;
+}
 
 
 
