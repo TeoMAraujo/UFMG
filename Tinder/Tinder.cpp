@@ -1,44 +1,59 @@
-#include "istream"
-// meu problema ta mt mais na sintaxe q na logica saiva disso
+#include "tinder.hpp"
+#include <iostream>
 
-caractFis::caractFis(char sex, char pel, char tpf) {
-  this->sex = sex;
-  this->pel = pel;
-  this->tpf = tpf;
+Tinder::Tinder(Pessoa const &usuario) { 
+    this->usuario = usuario; 
 }
 
-Pessoa::Pessoa(int id, std::string nom, int ida, char sex, char pel, char tpf) {
-  this->id = id;
-  this->nome = nome;
-  this->ida = ida;
-  this->caract * = new caractFis(sex, pel, tpf);
-}
-void Pessoa::print() {}
-
-Tinder::Tinder(Pessoa usuario) { // pqq os argumentos são esses?
-  this->usuario = usuario;
-}
 Tinder::~Tinder() {
-  for (caract) // n sei fz destructor nesse caso, mt bo n? de caract fisc teria
-               // q da delete no sex pel e tpf, e deletea elas , mas no map e no
-               // outro é da um clear?
+  for (int i = 0; i < lp.size(); i++) {
+    delete lp[i].caract;
+  }
+  delete usuario.caract; // so apaga os ponteiros
 }
 
-void addPessoa(int id, std::string nome, int idade, char sexo, char pele,
-               char tipoFisico) {
-  lp.insert(usuario(id, nome, idade, sexo, pele, tipoFisico));
-  std::map // ta dando pau pq eu n entendo intrissicamente o funcionamente do
-           // programa, tomo pau pra stl
+
+void Tinder::addPessoa(int id, std::string nome, int idade, char sexo, char pele, char tipoFisico) {
+  lp.push_back(Pessoa(id, nome, idade, sexo, pele, tipoFisico)); // usa o constructor de pessoa
 }
 
-void addPreferencias(char sexo, char pele, char tipoFisico) {}
-
-void addPares() {}
-void curtir(Pessoa const &par) {}
-Pessoa *findById(int id) {
-  // ele vai procurar no map as caractericas postas
+void Tinder::addPreferencias(char sexo, char pele, char tipoFisico) {
+  this->parPerfeito = caractFis(sexo, pele, tipoFisico);
 }
-void listarMatches();
-{
 
-};
+void Tinder::addPares() {
+  for (Pessoa &p : lp) {
+    if (parPerfeito->sex == p.caract->sex &&
+        parPerfeito->pel == p.caract->pel &&
+        parPerfeito->tpf == p.caract->tpf) {
+      curtir(p);
+    }
+  }
+}
+void Tinder::curtir(Pessoa const &par) {
+  if (matches.find(usuario.id) == matches.end()) {
+    std::vector<int> id_likes = {}; 
+    matches[usuario.id] = id_likes;
+    }
+    matches[usuario.id].push_back;
+  }
+}
+
+Pessoa Tinder::*findById(int id) {
+  for (Pessoa p : lp) {
+    if (p.id == id) {
+      return p;
+    }
+  }
+  else {
+    return nullptr;
+  }
+}
+
+void Tinder::listarMatches();{
+  std::vector<int> & id.Matches = matches[usuario.id]
+        for(int id: id.Matches){
+        Pessoa* pessoa = findById();
+        pessoa.print();
+    }
+}
