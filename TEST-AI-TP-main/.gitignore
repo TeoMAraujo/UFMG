@@ -1,0 +1,46 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+bin/
+!bin/.gitkeep
+
+# Object files directory
+obj/
+!obj/.gitkeep
+
+# Data files (optional - remove this line if you want to track data files)
+data/*.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
