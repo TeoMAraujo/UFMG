@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/simulation/modelsim
+Ealu
+Z1 w1764959490
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/ALU.vhd
+Z6 FC:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/ALU.vhd
+l0
+L5 1
+V@iM1g]j7oO>P;:0Ua5`il0
+!s100 <j6<0^Wd?:5B_?=JVkHo33
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1764962217
+!i10b 1
+Z9 !s108 1764962216.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/ALU.vhd|
+Z11 !s107 C:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/ALU.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Adata_flow
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 @iM1g]j7oO>P;:0Ua5`il0
+!i122 0
+l17
+L16 13
+V`_>6aiQIJO^16_>cmFcU_2
+!s100 QE6PiEYMBo724mOWObZ]M0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu_tb
+R1
+R2
+R3
+R4
+!i122 1
+R0
+Z14 8C:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/tb_ALU.vhd
+Z15 FC:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/tb_ALU.vhd
+l0
+L5 1
+V0<fP6o:I7?g:`M1IJmaQ@1
+!s100 n>hbB`=Z7V]ULhfmL4blo3
+R7
+31
+R8
+!i10b 1
+Z16 !s108 1764962217.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/tb_ALU.vhd|
+!s107 C:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/tb_ALU.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 6 alu_tb 0 22 0<fP6o:I7?g:`M1IJmaQ@1
+!i122 1
+l25
+L8 66
+V66FJEK]Mkcg^82gZFM4aZ1
+!s100 JhQ>dQIXLmzKL_CVjfZ>P2
+R7
+31
+R8
+!i10b 1
+R16
+R17
+Z18 !s107 C:/Users/Aluno/Downloads/Jiovana/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/tb_ALU.vhd|
+!i113 1
+R12
+R13

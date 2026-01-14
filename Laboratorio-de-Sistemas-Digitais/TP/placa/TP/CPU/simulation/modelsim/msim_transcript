@@ -1,0 +1,170 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do CPU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/D__EN_flip_flop/D_EN_flip_flop.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:26 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/D__EN_flip_flop/D_EN_flip_flop.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_EN_flip_flop
+# -- Compiling architecture behavioral of D_EN_flip_flop
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/FSM/FSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/FSM/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FSM
+# -- Compiling architecture behavioral of FSM
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/Mux_2x1/Mux_2x1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/Mux_2x1/Mux_2x1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux_2x1
+# -- Compiling architecture data_flow of Mux_2x1
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/D_flip_flop/D_flip_flop.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/D_flip_flop/D_flip_flop.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_flip_flop
+# -- Compiling architecture behavourial of D_flip_flop
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture data_flow of ALU
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/reg_8bit/reg_8bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/reg_8bit/reg_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_8bit
+# -- Compiling architecture structural of reg_8bit
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/output_files/hex_decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/output_files/hex_decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decimal_display_driver
+# -- Compiling architecture Behavioral of decimal_display_driver
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/barramento/barramento.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/barramento/barramento.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity barramento
+# -- Compiling architecture structural of barramento
+# -- Loading entity reg_8bit
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/arithmetic_control/arithmetic_control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/arithmetic_control/arithmetic_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity arithmetic_control
+# -- Compiling architecture structural of arithmetic_control
+# -- Loading entity D_flip_flop
+# -- Loading entity FSM
+# -- Loading entity Mux_2x1
+# -- Loading entity D_EN_flip_flop
+# -- Loading package NUMERIC_STD
+# -- Loading entity ALU
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:27 on Dec 12,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPU
+# -- Compiling architecture structural of CPU
+# -- Loading entity arithmetic_control
+# ** Error: C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/CPU.vhd(44): (vcom-1436) Actual expression (prefix expression) of formal "RST" is not globally static.
+# -- Loading entity barramento
+# ** Error: C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/CPU.vhd(55): (vcom-1436) Actual expression (prefix expression) of formal "RST" is not globally static.
+# -- Loading package NUMERIC_STD
+# -- Loading entity decimal_display_driver
+# ** Note: C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/CPU.vhd(70): VHDL Compiler exiting
+# End time: 13:38:27 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./CPU_run_msim_rtl_vhdl.do line 17
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/CPU.vhd}"
+# Load canceled
+vcom -reportprogress 300 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/tb_CPU.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:39:10 on Dec 12,2025
+# vcom -reportprogress 300 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/tb_CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_CPU
+# -- Compiling architecture Behavioral of tb_CPU
+# End time: 13:39:10 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_cpu
+# vsim -gui -l msim_transcript work.tb_cpu 
+# Start time: 13:39:21 on Dec 12,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_cpu(behavioral)
+# ** Error: (vsim-3173) Entity 'C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/TP/CPU/simulation/modelsim/rtl_work.cpu' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 13:39:21 on Dec 12,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

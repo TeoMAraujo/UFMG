@@ -1,0 +1,92 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do barramento_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/TP/Structural/Components/reg_8bit/reg_8bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:19:47 on Dec 04,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/TP/Structural/Components/reg_8bit/reg_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_8bit
+# -- Compiling architecture structural of reg_8bit
+# End time: 18:19:47 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/TP/Structural/barramento/barramento.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:19:47 on Dec 04,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/TP/Structural/barramento/barramento.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity barramento
+# -- Compiling architecture structural of barramento
+# -- Loading entity reg_8bit
+# End time: 18:19:47 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/TP/Structural/barramento/tb_barramento.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:19:47 on Dec 04,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/TP/Structural/barramento/tb_barramento.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_barramento
+# -- Compiling architecture sim of tb_barramento
+# -- Loading entity barramento
+# End time: 18:19:47 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  tb_barramento.vhd
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_barramento.vhd 
+# Start time: 18:19:47 on Dec 04,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'tb_barramento' at "tb_barramento".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./barramento_run_msim_rtl_vhdl.do PAUSED at line 13
+vsim work.tb_barramento
+# vsim work.tb_barramento 
+# Start time: 18:19:47 on Dec 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_barramento(sim)
+# Loading work.barramento(structural)
+# Loading work.reg_8bit(structural)
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 descending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 descending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 descending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 descending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave  \
+sim:/tb_barramento/tb_readw \
+sim:/tb_barramento/tb_data \
+sim:/tb_barramento/tb_CLK \
+sim:/tb_barramento/tb_addr \
+sim:/tb_barramento/CLK_PERIOD
+run
+# ** Note: Starting WRITE Cycle...
+#    Time: 20 ns  Iteration: 0  Instance: /tb_barramento
+# ** Note: Starting READ Cycle...
+#    Time: 60 ns  Iteration: 0  Instance: /tb_barramento
+# ** Note: Simulation Completed Successfully.
+#    Time: 100 ns  Iteration: 0  Instance: /tb_barramento
+# End time: 18:22:08 on Dec 04,2025, Elapsed time: 0:02:21
+# Errors: 1, Warnings: 0

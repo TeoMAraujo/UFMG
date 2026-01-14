@@ -1,0 +1,9 @@
+|D_EN_flip_flop
+D[0] => internal_Q[0].DATAIN
+CLK => internal_Q[0].CLK
+RST => internal_Q[0].ACLR
+EN => internal_Q[0].ENA
+Q[0] << internal_Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Qn[0] << internal_Q[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

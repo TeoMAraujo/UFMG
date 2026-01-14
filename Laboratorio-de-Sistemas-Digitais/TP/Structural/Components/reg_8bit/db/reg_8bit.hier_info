@@ -1,0 +1,61 @@
+|reg_8bit
+CLK => D_flip_flop:my_storage_element.CLK
+RST => D_flip_flop:my_storage_element.RST
+addr[0] => Equal0.IN2
+addr[1] => Equal0.IN1
+addr[2] => Equal0.IN0
+data[0] <> data[0]
+data[1] <> data[1]
+data[2] <> data[2]
+data[3] <> data[3]
+data[4] <> data[4]
+data[5] <> data[5]
+data[6] <> data[6]
+data[7] <> data[7]
+readw => write_enable.IN1
+readw => data.IN1
+
+
+|reg_8bit|D_flip_flop:my_storage_element
+D[0] => internal_Q[0].DATAIN
+D[1] => internal_Q[1].DATAIN
+D[2] => internal_Q[2].DATAIN
+D[3] => internal_Q[3].DATAIN
+D[4] => internal_Q[4].DATAIN
+D[5] => internal_Q[5].DATAIN
+D[6] => internal_Q[6].DATAIN
+D[7] => internal_Q[7].DATAIN
+CLK => internal_Q[0].CLK
+CLK => internal_Q[1].CLK
+CLK => internal_Q[2].CLK
+CLK => internal_Q[3].CLK
+CLK => internal_Q[4].CLK
+CLK => internal_Q[5].CLK
+CLK => internal_Q[6].CLK
+CLK => internal_Q[7].CLK
+RST => internal_Q[0].ACLR
+RST => internal_Q[1].ACLR
+RST => internal_Q[2].ACLR
+RST => internal_Q[3].ACLR
+RST => internal_Q[4].ACLR
+RST => internal_Q[5].ACLR
+RST => internal_Q[6].ACLR
+RST => internal_Q[7].ACLR
+Q[0] <= internal_Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= internal_Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= internal_Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= internal_Q[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= internal_Q[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= internal_Q[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= internal_Q[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= internal_Q[7].DB_MAX_OUTPUT_PORT_TYPE
+Qn[0] <= internal_Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Qn[1] <= internal_Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Qn[2] <= internal_Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Qn[3] <= internal_Q[3].DB_MAX_OUTPUT_PORT_TYPE
+Qn[4] <= internal_Q[4].DB_MAX_OUTPUT_PORT_TYPE
+Qn[5] <= internal_Q[5].DB_MAX_OUTPUT_PORT_TYPE
+Qn[6] <= internal_Q[6].DB_MAX_OUTPUT_PORT_TYPE
+Qn[7] <= internal_Q[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

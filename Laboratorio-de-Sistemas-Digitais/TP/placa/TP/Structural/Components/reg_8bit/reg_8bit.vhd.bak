@@ -1,0 +1,37 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity reg_8bit is
+    generic(
+        faddr: std_logic_vector(2 downto 0)   --endereço particular no periférico  
+    );
+    port(
+        CLK   : in    std_logic;
+        addr  : in    std_logic_vector(2 downto 0); --endereço dado pela cpu
+        data  : inout std_logic_vector(7 downto 0); --dado a ser escrito
+        readw : in    std_logic --comando de leitura/escrita
+    );
+end reg_8bit;
+
+architecture structural of reg_8bit is
+    signal Q       : std_logic_vector(7 downto 0) := (others => '0');
+    --armazena o valor interno do periférico
+    signal eq_addr : std_logic;
+begin
+    eq_addr <= '1' when addr = faddr else '0';
+    
+    process (CLK)
+    begin 
+        if rising_edge(CLK) then 
+        --escrita, acontece quando ha comando para escrever no per de mesmo endereço 
+            if (readw = '1' and eq_addr = '1') then 
+                Q <= data;
+            end if;
+        end if;
+    end process;
+    
+    --leitura, acontece quando ha comando para leitura no per de mesmo endereço  
+    data <= Q when readw = '0' and eq_addr = '1'
+              else (others => 'Z');
+    -- estado de impedancia
+end structural;          

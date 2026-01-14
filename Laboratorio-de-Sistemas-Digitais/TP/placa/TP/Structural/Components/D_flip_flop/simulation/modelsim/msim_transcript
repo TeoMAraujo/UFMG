@@ -1,0 +1,82 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do D_Flip_Flop_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/TP/Structural/Components/D_flip_flop/D_flip_flop.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:46 on Dec 04,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/TP/Structural/Components/D_flip_flop/D_flip_flop.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_flip_flop
+# -- Compiling architecture behavourial of D_flip_flop
+# End time: 18:08:46 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/TP/Structural/Components/D_flip_flop/tb_D_flip_flop.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:46 on Dec 04,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/TP/Structural/Components/D_flip_flop/tb_D_flip_flop.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_flip_flop_tb
+# -- Compiling architecture behavior of D_flip_flop_tb
+# End time: 18:08:46 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  tb_D_flip_flop.vhd
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_D_flip_flop.vhd 
+# Start time: 18:08:46 on Dec 04,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'tb_D_flip_flop' at "tb_D_flip_flop".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./D_Flip_Flop_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.d_flip_flop_tb
+# vsim work.d_flip_flop_tb 
+# Start time: 18:08:46 on Dec 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.d_flip_flop_tb(behavior)
+# Loading work.d_flip_flop(behavourial)
+vsim work.d_flip_flop_tb
+# End time: 18:08:54 on Dec 04,2025, Elapsed time: 0:00:08
+# Errors: 1, Warnings: 0
+# vsim work.d_flip_flop_tb 
+# Start time: 18:08:55 on Dec 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.d_flip_flop_tb(behavior)
+# Loading work.d_flip_flop(behavourial)
+# WARNING: No extended dataflow license exists
+add wave  \
+sim:/d_flip_flop_tb/W_TB \
+sim:/d_flip_flop_tb/RST \
+sim:/d_flip_flop_tb/Qn \
+sim:/d_flip_flop_tb/Q \
+sim:/d_flip_flop_tb/D \
+sim:/d_flip_flop_tb/CLK_PERIOD \
+sim:/d_flip_flop_tb/CLK
+run
+# ** Note: Starting Simulation: Applying Initial Reset
+#    Time: 0 ps  Iteration: 0  Instance: /d_flip_flop_tb
+# ** Note: Testing Asynchronous Reset functionality
+#    Time: 60 ns  Iteration: 0  Instance: /d_flip_flop_tb
+# ** Note: Simulation Completed Successfully
+#    Time: 85 ns  Iteration: 0  Instance: /d_flip_flop_tb
+# End time: 18:10:03 on Dec 04,2025, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0

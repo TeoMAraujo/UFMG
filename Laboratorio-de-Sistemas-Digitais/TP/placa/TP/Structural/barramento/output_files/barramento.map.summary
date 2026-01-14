@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Dec 04 18:19:21 2025
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : barramento
+Top-level Entity Name : barramento
+Family : MAX 10
+Total logic elements : 120
+    Total combinational functions : 56
+    Dedicated logic registers : 64
+Total registers : 64
+Total pins : 13
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

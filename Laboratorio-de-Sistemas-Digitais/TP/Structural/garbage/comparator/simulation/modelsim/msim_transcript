@@ -1,0 +1,67 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do comparator_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/TP/Structural/Components/comparator/comparator.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:41 on Dec 04,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/TP/Structural/Components/comparator/comparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity comparator
+# -- Compiling architecture data_flow of comparator
+# End time: 17:59:41 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/TP/Structural/Components/comparator/tb_comparator.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:59:41 on Dec 04,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/TP/Structural/Components/comparator/tb_comparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_comparator
+# -- Compiling architecture tb_arch of tb_comparator
+# End time: 17:59:41 on Dec 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  tb_comparator.vhd
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_comparator.vhd 
+# Start time: 17:59:41 on Dec 04,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'tb_comparator' at "tb_comparator".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./comparator_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim work.tb_comparator
+# vsim work.tb_comparator 
+# Start time: 17:59:41 on Dec 04,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_comparator(tb_arch)
+# Loading work.comparator(data_flow)
+add wave  \
+sim:/tb_comparator/s_equal \
+sim:/tb_comparator/s_B \
+sim:/tb_comparator/s_A
+run
+add wave  \
+sim:/tb_comparator/DUT/W \
+sim:/tb_comparator/DUT/equal \
+sim:/tb_comparator/DUT/B \
+sim:/tb_comparator/DUT/A
+run
+# End time: 18:04:06 on Dec 04,2025, Elapsed time: 0:04:25
+# Errors: 1, Warnings: 0

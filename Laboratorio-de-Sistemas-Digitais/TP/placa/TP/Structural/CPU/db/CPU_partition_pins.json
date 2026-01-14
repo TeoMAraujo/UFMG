@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OUTP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTP[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTP[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTP[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTP[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OPCODE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OPCODE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OPCODE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OPERAND1[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

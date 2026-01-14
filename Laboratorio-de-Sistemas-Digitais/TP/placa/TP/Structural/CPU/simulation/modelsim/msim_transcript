@@ -1,0 +1,148 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do CPU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/reg_8bit/reg_8bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:22 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/reg_8bit/reg_8bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_8bit
+# -- Compiling architecture structural of reg_8bit
+# End time: 18:26:22 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/Mux_2x1/Mux_2x1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:22 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/Mux_2x1/Mux_2x1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux_2x1
+# -- Compiling architecture data_flow of Mux_2x1
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/Demux_1x2/Demux_1x2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:23 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/Demux_1x2/Demux_1x2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Demux_1x2
+# -- Compiling architecture data_flow of Demux_1x2
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/comparator/comparator.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:23 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/comparator/comparator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity comparator
+# -- Compiling architecture data_flow of comparator
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:23 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/ALU/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture data_flow of ALU
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/D_flip_flop/D_flip_flop.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:23 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/Components/D_flip_flop/D_flip_flop.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_flip_flop
+# -- Compiling architecture behavourial of D_flip_flop
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/barramento/barramento.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:23 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/barramento/barramento.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity barramento
+# -- Compiling architecture structural of barramento
+# -- Loading entity reg_8bit
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/arithmetic_control/arithmetic_control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:23 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/arithmetic_control/arithmetic_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity arithmetic_control
+# -- Compiling architecture structural of arithmetic_control
+# -- Loading entity D_flip_flop
+# -- Loading entity comparator
+# -- Loading entity Demux_1x2
+# -- Loading entity Mux_2x1
+# -- Loading package NUMERIC_STD
+# -- Loading entity ALU
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/CPU/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:23 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/CPU/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CPU
+# -- Compiling architecture structural of CPU
+# -- Loading entity arithmetic_control
+# -- Loading entity barramento
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/CPU/tb_CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:26:23 on Dec 09,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/Aluno/Downloads/Laboratorio-de-Sistemas-Digitais-main/Laboratorio-de-Sistemas-Digitais-main/TP/Structural/CPU/tb_CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_CPU
+# -- Compiling architecture Behavioral of tb_CPU
+# End time: 18:26:23 on Dec 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  tb_CPU.vhd
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_CPU.vhd 
+# Start time: 18:26:23 on Dec 09,2025
+# ** Error (suppressible): (vsim-19) Failed to access library 'tb_CPU' at "tb_CPU".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./CPU_run_msim_rtl_vhdl.do PAUSED at line 20
+# Load canceled
+# End time: 18:27:20 on Dec 09,2025, Elapsed time: 0:00:57
+# Errors: 1, Warnings: 0
