@@ -1,0 +1,31 @@
+#ifndef CENA_HPP
+#define CENA_HPP
+
+#include "Objeto.hpp"
+#include "vector.hpp"
+
+class Cena {
+private:
+    vector<vector<objeto>> objetos;
+    vector<objeto> cena;
+public:
+    //constructor
+    Cena();
+
+    //kinda getters and setters
+    vector<objeto>& getCena();
+    void addObject(const double &x, const double &y, const double &largura);
+    void addMovement(const int &object, const int &tempo, const double &x, const double &y);
+
+    // Sorting methods
+    void cenaSortTime(const int &time);
+    void merge(vector<objeto>& arr, int left, int mid, int right);
+    void mergeSort(vector<objeto>& arr, int left, int right);
+    void mergeById(vector<objeto>& arr, int left, int mid, int right);
+    void mergeSortById(vector<objeto>& arr, int left, int right);
+    void sortOverlap();
+
+    void gerarCena(const int &time); //all the previous sorts concatenates into a major function
+};
+
+#endif 
